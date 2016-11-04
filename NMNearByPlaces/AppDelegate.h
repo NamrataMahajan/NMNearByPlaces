@@ -14,4 +14,7 @@
 
 
 @end
-
+//{
+//    https://maps.googleapis.com/maps/api/place/nearbysearch/xml?&key=AIzaSyCjPltPWlOdOU6Txi1D3M138DWzGqVBEQU&location=19.72,72.89&radius=50000&types=atm
+//}
+//

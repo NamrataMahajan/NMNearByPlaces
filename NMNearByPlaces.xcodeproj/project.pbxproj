@@ -13,6 +13,10 @@
 		935B55AD1DCB94B600AF1D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935B55AB1DCB94B600AF1D18 /* Main.storyboard */; };
 		935B55AF1DCB94B600AF1D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935B55AE1DCB94B600AF1D18 /* Assets.xcassets */; };
 		935B55B21DCB94B600AF1D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935B55B01DCB94B600AF1D18 /* LaunchScreen.storyboard */; };
+		935B55BA1DCB986100AF1D18 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935B55B91DCB986100AF1D18 /* MapKit.framework */; };
+		935B55BC1DCB987A00AF1D18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935B55BB1DCB987A00AF1D18 /* CoreLocation.framework */; };
+		935B55BF1DCB9D5000AF1D18 /* PlaceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935B55BE1DCB9D5000AF1D18 /* PlaceListViewController.m */; };
+		935B55C51DCB9F5C00AF1D18 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935B55C41DCB9F5C00AF1D18 /* PlaceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		935B55AE1DCB94B600AF1D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935B55B11DCB94B600AF1D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		935B55B31DCB94B600AF1D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935B55B91DCB986100AF1D18 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		935B55BB1DCB987A00AF1D18 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		935B55BD1DCB9D5000AF1D18 /* PlaceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceListViewController.h; sourceTree = "<group>"; };
+		935B55BE1DCB9D5000AF1D18 /* PlaceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceListViewController.m; sourceTree = "<group>"; };
+		935B55C31DCB9F5C00AF1D18 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		935B55C41DCB9F5C00AF1D18 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935B55BC1DCB987A00AF1D18 /* CoreLocation.framework in Frameworks */,
+				935B55BA1DCB986100AF1D18 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 		935B55961DCB94B600AF1D18 = {
 			isa = PBXGroup;
 			children = (
+				935B55BB1DCB987A00AF1D18 /* CoreLocation.framework */,
+				935B55B91DCB986100AF1D18 /* MapKit.framework */,
 				935B55A11DCB94B600AF1D18 /* NMNearByPlaces */,
 				935B55A01DCB94B600AF1D18 /* Products */,
 			);
@@ -62,6 +76,10 @@
 				935B55A61DCB94B600AF1D18 /* AppDelegate.m */,
 				935B55A81DCB94B600AF1D18 /* ViewController.h */,
 				935B55A91DCB94B600AF1D18 /* ViewController.m */,
+				935B55BD1DCB9D5000AF1D18 /* PlaceListViewController.h */,
+				935B55BE1DCB9D5000AF1D18 /* PlaceListViewController.m */,
+				935B55C31DCB9F5C00AF1D18 /* PlaceDetailViewController.h */,
+				935B55C41DCB9F5C00AF1D18 /* PlaceDetailViewController.m */,
 				935B55AB1DCB94B600AF1D18 /* Main.storyboard */,
 				935B55AE1DCB94B600AF1D18 /* Assets.xcassets */,
 				935B55B01DCB94B600AF1D18 /* LaunchScreen.storyboard */,
@@ -149,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935B55BF1DCB9D5000AF1D18 /* PlaceListViewController.m in Sources */,
 				935B55AA1DCB94B600AF1D18 /* ViewController.m in Sources */,
 				935B55A71DCB94B600AF1D18 /* AppDelegate.m in Sources */,
 				935B55A41DCB94B600AF1D18 /* main.m in Sources */,
+				935B55C51DCB9F5C00AF1D18 /* PlaceDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
